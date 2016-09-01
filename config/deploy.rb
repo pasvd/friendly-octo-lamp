@@ -17,6 +17,9 @@ default_run_options[:pty] = true
 set :rvm_ruby_string, '2.2.5@friendly-octo-lamp'
 
 task :main do
+
+
+  
   set :env, task_call_frames.first.task.fully_qualified_name
   set :user, "deploy-test" #uzivatel pod kterym se hlasime na server
 
