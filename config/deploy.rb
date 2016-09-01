@@ -8,7 +8,6 @@ set :repository, "git@github.com:pasvd/friendly-octo-lamp.git"
 
 set :scm, :git
 
-
 set :branch, "master"
 set :keep_releases, 10
 set :ssh_options, {:forward_agent => true}
